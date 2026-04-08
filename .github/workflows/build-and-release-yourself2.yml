@@ -16,6 +16,7 @@ on:
 
 env:
   SWIFTPROTOBUF_VERSION: "1.29.0"
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true
 
 jobs:
   build:
